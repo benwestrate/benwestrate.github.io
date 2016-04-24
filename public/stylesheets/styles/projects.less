@@ -1,0 +1,40 @@
+.projects .wrapper{
+    margin-top: 151px;
+    margin-bottom: 60px;
+
+    .full-width{
+        &.gray{
+            background: @Swatch_1;
+        }
+    }
+
+    .row{
+        display: flex; /* or inline-flex */
+        flex-direction: row;
+        align-items: center;
+
+        &.media{
+            img{
+                margin: 10px 0;
+            }
+        }
+
+    }
+
+    .row{
+      .lumberjack{
+        text-align: center;
+        img{
+          margin: 0;
+          max-height : 400px;
+        }
+      }
+    }
+
+    @media (max-width: @screen-md){
+        .row{
+            display: block;
+        }
+    }
+
+}
