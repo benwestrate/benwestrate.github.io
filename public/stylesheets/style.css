@@ -6565,6 +6565,9 @@ img {
   }
 }
 @media (max-width: 992px) {
+  .navbar {
+    border-bottom: 1px solid #3b495e;
+  }
   .navbar-header {
     text-align: center;
   }
@@ -6626,11 +6629,6 @@ img {
 }
 .main strong {
   font-family: 'Lobster', cursive, Georgia, "Times New Roman", Times, serif;
-}
-@media (max-width: 992px) {
-  .main {
-    text-align: center;
-  }
 }
 .full-width footer {
   position: absolute;
@@ -6732,10 +6730,12 @@ img {
     width: 100%;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 992px) {
   .main {
-    margin-top: 230px;
+    text-align: center;
+    margin-top: 250px;
     font-size: 1.5em;
+    margin-bottom: 30px;
   }
 }
 .projects .wrapper {
