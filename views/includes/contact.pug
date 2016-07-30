@@ -1,0 +1,26 @@
+
+// Modal
+#contact.modal.fade(tabindex='-1', role='dialog', aria-labelledby='contactMe', aria-hidden='true')
+    .contact-modal
+        .modal-dialog
+            .modal-content
+                .modal-body
+                    .contact-modal__content
+                        .contact-modal__content--img
+                            img(src="public/images/ben_portrate.jpg")
+                        ul.contact-modal__content--list
+                            li.contact-modal__content--list--mainTitle
+                                h3 Drop me a line
+                            li.contact-modal__content--list--item
+                                div.contact-modal__content--list--item--title email :
+                                div.contact-modal__content--list--item--desc ben.westrate@gmail.com
+                            li.contact-modal__content--list--item
+                                div.contact-modal__content--list--item--title twitter : 
+                                a.contact-modal__content--list--item--desc(href="https://twitter.com/benwestrate") @BenWestrate
+                            li.contact-modal__content--list--item
+                                div.contact-modal__content--list--item--title GitHub : 
+                                a.contact-modal__content--list--item--desc(href="http://github.com/benwestrate") benwestrate
+                    button.close.contact-modal--close(type='button', data-dismiss='modal', aria-label='Close')
+                        span(aria-hidden='true') &times;
+                
+                
