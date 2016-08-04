@@ -6699,6 +6699,14 @@ img {
     display: block;
   }
 }
+.iron-title h4 {
+  font-family: 'Lobster', cursive, Georgia, "Times New Roman", Times, serif;
+  font-size: 5em;
+  padding: 45px 10px;
+  text-align: center;
+  background: #f0ad4e;
+  margin: 15px;
+}
 .contact-modal .modal-dialog {
   margin-top: 50px;
 }
@@ -6752,7 +6760,7 @@ img {
   margin: 0;
   position: relative;
   overflow: hidden;
-  width: 25%;
+  flex-grow: 1;
   min-height: 90px;
   background: #EEEEF0;
   cursor: pointer;
