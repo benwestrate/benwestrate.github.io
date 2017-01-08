@@ -12,13 +12,17 @@
                             li.contact-modal__content--list--mainTitle
                                 h3 Drop me a line
                             li.contact-modal__content--list--item
-                                div.contact-modal__content--list--item--title email :
-                                div.contact-modal__content--list--item--desc ben.westrate@gmail.com
+                                div.contact-modal__content--list--item--title
+                                    span.glyphicon.glyphicon-envelope
+                                div.contact-modal__content--list--item--desc
+                                    a(href="mailto:ben.westrate@gmail.com") ben.westrate@gmail.com
                             li.contact-modal__content--list--item
-                                div.contact-modal__content--list--item--title twitter :
-                                a.contact-modal__content--list--item--desc(href="https://twitter.com/benwestrate") @BenWestrate
+                                div.contact-modal__content--list--item--title
+                                    i.fa.fa-twitter
+                                a.contact-modal__content--list--item--desc(href="https://twitter.com/benwestrate",targe="_blank") @BenWestrate
                             li.contact-modal__content--list--item
-                                div.contact-modal__content--list--item--title GitHub :
+                                div.contact-modal__content--list--item--title
+                                    i.fa.fa-github
                                 a.contact-modal__content--list--item--desc(href="http://github.com/benwestrate") benwestrate
                     button.close.contact-modal--close(type='button', data-dismiss='modal', aria-label='Close')
                         span(aria-hidden='true') &times;
