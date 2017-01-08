@@ -6558,6 +6558,7 @@ img {
   padding: 0;
   margin-left: 20px;
   margin-bottom: 15px;
+  cursor: pointer;
 }
 @media (min-width: 768px) {
   .navbar > .container-fluid .navbar-brand {
@@ -6637,7 +6638,7 @@ img {
     height: auto;
   }
   .projects div.wrapper {
-    margin-top: 210px;
+    margin-top: 230px;
   }
   .full-width:before,
   .full-width:after {
@@ -6673,7 +6674,6 @@ img {
 }
 .projects .wrapper {
   margin-top: 151px;
-  margin-bottom: 60px;
 }
 .projects .wrapper .full-width.gray {
   background: #eeeeee;
@@ -6699,13 +6699,29 @@ img {
     display: block;
   }
 }
+.projects .wrapper .password-portected {
+  padding-bottom: 20px;
+}
+.projects .wrapper .password-portected .errorMessage {
+  display: none;
+}
+.projects .wrapper .password-portected .has-error .errorMessage {
+  display: block;
+  padding-top: 10px;
+}
+.projects .wrapper .password-portected .hidden {
+  display: none;
+}
 .iron-title h4 {
   font-family: 'Lobster', cursive, Georgia, "Times New Roman", Times, serif;
   font-size: 5em;
   padding: 45px 10px;
   text-align: center;
   background: #f0ad4e;
-  margin: 15px;
+  margin: 0;
+}
+.ggp-directories .container {
+  padding-top: 10px;
 }
 .contact-modal .modal-dialog {
   margin-top: 50px;

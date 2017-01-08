@@ -1,6 +1,5 @@
 .projects .wrapper{
     margin-top: 151px;
-    margin-bottom: 60px;
 
     .full-width{
         &.gray{
@@ -37,6 +36,25 @@
         }
     }
 
+    .password-portected{
+        padding-bottom: 20px;
+
+        .errorMessage{
+            display: none;
+        }
+
+        .has-error{
+            .errorMessage{
+                display: block;
+                padding-top: 10px;
+            }
+        }
+
+        .hidden{
+            display: none;
+        }
+    }
+
 }
 
 .iron-title{
@@ -46,6 +64,14 @@
         padding: 45px 10px;
         text-align: center;
         background: @brand-warning;
-        margin: 15px;
+        margin: 0;
     }
+}
+
+.ggp-directories{
+
+    .container{
+        padding-top: 10px;
+    }
+
 }

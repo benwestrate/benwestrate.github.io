@@ -18,7 +18,7 @@
     </nav>
     <div class="projects">
       <div class="wrapper">
-        <div class="full-width iron-title">
+        <div class="full-width iron-title gray">
           <div class="container">
             <div class="row media">
               <div class="col-md-6">
@@ -55,6 +55,82 @@
                 <p>This is an open source project. Most of the work has been done but there are a few</p>
               </div>
               <div class="col-md-6 lumberjack"><img src="/public/images/projects/lumberjack/lumberjack.man.png"></div>
+            </div>
+          </div>
+        </div>
+        <div class="password-portected full-width gray" data-hook="password-container">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h3>Protected Content</h3>
+                <p>I have a more great projects I would love to share with you. Unfortunatly I am bound by contract to keep them private. Please contact me for the password.</p>
+                <form data-hook="unlock-form">
+                  <div class="input-group">
+                    <input class="form-control" type="password" placeholder="Enter Password To Unlock" data-hook="unlockPassword"><span class="input-group-btn">
+                      <button class="btn btn-default" data-hook="unlockButton">Unlock!</button></span>
+                  </div><span class="errorMessage">Oh no!! Unfortunatly I can't let you in! </span>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hidden-content" data-hook="hidden-content">
+          <div class="full-width gray" id="mymove">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6"><img src="https://dl.dropboxusercontent.com/u/1036609/portfolio/mymove/mymove.uma.devices.png"></div>
+                <div class="col-md-6">
+                  <div class="projectDescription">
+                    <h3>My Move</h3>
+                    <h5><strong>Roll :</strong><span>Front End Developer</span></h5>
+                    <p>My Move is a one stop shop for movers. It houses hundreds of articales and blog posts about moving. The site also has diffrent tools to help the mover estimate the cost of thier move. Some of these include a paint calculator and a moving cost calculator.</p>
+                    <p>The real meat of the project was building out a searies of single page applications for thier exlusive deals. These apps allow the customer to select one or many deals and have them sent to their email.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="full-width">
+            <div class="container">
+              <div class="row media">
+                <div class="col-md-4">
+                  <h3>My Move Continued</h3>
+                  <h4>Voters Registration</h4>
+                  <p>I also built the voter registration application. This application gathers pertinate information and talks with a few proprietary services to help the mover register to vote.</p>
+                </div>
+                <div class="col-md-4"><img class="thumbnail" src="https://dl.dropboxusercontent.com/u/1036609/portfolio/mymove/mymove.msvr.step1.png"></div>
+                <div class="col-md-4"><img class="thumbnail" src="https://dl.dropboxusercontent.com/u/1036609/portfolio/mymove/mymove.msvr.step3.png"></div>
+              </div>
+            </div>
+          </div>
+          <div class="full-width gray" id="ggp">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="projectDescription">
+                    <h3>GGP</h3>
+                    <h5><strong>Roll :</strong><span>Front End Architect</span></h5>
+                    <p>GGP owns 120 high end retail malls around the US. Each year on Thanksgiving their sites would crash under the load of the Black Friday traffic. The new sites needed to scale up and down with demand of the holidays. They also need to be fully function on mobile devices. We were able to accomplish both of those goals. The sites have not been down once sense we launched in October 2015.</p>
+                    <p><a href="https://www.oakbrookcenter.com">Link to Oakbrook Center Mall</a></p>
+                  </div>
+                </div>
+                <div class="col-md-6"><img src="https://dl.dropboxusercontent.com/u/1036609/portfolio/GGP/ggp_devices.png"></div>
+              </div>
+            </div>
+          </div>
+          <div class="full-width ggp-directories">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4"><img class="thumbnail" src="https://dl.dropboxusercontent.com/u/1036609/Portfolio/GGP/directories_one.png"></div>
+                <div class="col-md-4"><img class="thumbnail" src="https://dl.dropboxusercontent.com/u/1036609/Portfolio/GGP/directories_two.png"></div>
+                <div class="col-md-4">
+                  <div class="projectDescription">
+                    <h3>GGP - Water Tower Directories</h3>
+                    <h5><strong>Roll :</strong><span>Architect</span></h5>
+                    <p>Water Tower Place mall wanted to digitize their mall directories. These directories were 65 inch touch screen displays that were going to be placed in various places through out the mall. GGP wanted wanted to display the current location of directory on a map as well as all the other floors and all tenants on each directory.</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -103,5 +179,6 @@
     <script src="public/components/jquery/dist/jquery.min.js" type="text/javascript"></script>
     <script src="public/components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
     <script src="public/javascripts/main.js" type="text/javascript"></script>
+    <script src="public/javascripts/projects.js" type="text/javascript"></script>
   </body>
 </html>

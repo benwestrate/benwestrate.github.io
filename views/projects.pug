@@ -3,7 +3,7 @@ extends includes/layout
 block content
     .projects
         .wrapper
-            .full-width.iron-title
+            .full-width.iron-title.gray
                 .container
                     .row.media
                         .col-md-6
@@ -34,3 +34,20 @@ block content
                             p This is an open source project. Most of the work has been done but there are a few
                         .col-md-6.lumberjack
                             img(src="/public/images/projects/lumberjack/lumberjack.man.png")
+                
+            .password-portected.full-width.gray(data-hook="password-container")
+                .container
+                    .row
+                        .col-md-12
+                            h3 Protected Content
+                            p I have a more great projects I would love to share with you. Unfortunatly I am bound by contract to keep them private. Please contact me for the password.
+                            form(data-hook="unlock-form")
+                                .input-group
+                                    input.form-control(type="password",placeholder="Enter Password To Unlock",data-hook="unlockPassword") 
+                                    span.input-group-btn
+                                        button.btn.btn-default(data-hook="unlockButton") Unlock!
+                                span.errorMessage Oh no!! Unfortunatly I can't let you in! 
+            .hidden-content(data-hook="hidden-content")
+                include secret
+block scripts
+    script(src="public/javascripts/projects.js", type="text/javascript")
