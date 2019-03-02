@@ -3,13 +3,34 @@ html
   head
     title= title
     meta(name="viewport", content="width=device-width, initial-scale=1")
-    link(href='http://fonts.googleapis.com/css?family=Lobster|Open+Sans|Raleway', rel='stylesheet', type='text/css')
+    link(href="https://fonts.googleapis.com/css?family=Playfair+Display:900|Source+Sans+Pro:300,400", rel="stylesheet")
+    //- link(href='http://fonts.googleapis.com/css?family=Lobster|Open+Sans|Raleway', rel='stylesheet', type='text/css')
     link(rel='stylesheet', href='public/stylesheets/style.css')
 
   body
-    include header
-    block content
-    include contact
-    include footer
+    .layout-grid
+      .logo 
+        span.logo__first Ben
+        strong W
+        span.logo__last estrate
+      nav.mainNav
+        ul.vert-nav
+          li.vert-nav__item
+            a.vert-nav__item__link(href="#") Projects
+          li.vert-nav__item
+            a.vert-nav__item__link(href="#") Potography
+          li.vert-nav__item
+            a.vert-nav__item__link(href="#") About Me
+      .content-box-top-left
+        p I am a technology enthusiast specializing in
+            strong Front End Development.
+        p Harnessing
+            strong technology
+            span to solve business problems is one of my driving passions.
+      .content-box-top-right
+        h3 Intresting Project
+      .content-box-bottom
+        img(src="", alt="", srcset="")
+      .footer
     include scripts
     block scripts

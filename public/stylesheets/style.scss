@@ -1,0 +1,14 @@
+@import "../../node_modules/reset-css/sass/reset";
+
+@import "styles/variables.scss";
+
+// Global Styles
+@import "styles/global.scss";
+
+// Site spicific Styles
+@import "styles/header.scss";
+@import "styles/footer.scss";
+@import "styles/home.scss";
+@import "styles/projects.scss";
+@import "styles/contact.scss";
+@import "styles/projectCards.scss";
